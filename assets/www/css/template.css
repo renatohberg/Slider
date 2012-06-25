@@ -1,0 +1,183 @@
+/*
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+}
+
+body {
+	color: #FFFFFF;
+	font-family: Tahoma,Verdana,sans-serif;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: url("../img/back-ground/bg.png") repeat-x scroll center top #FFFFFF;
+}
+
+body .header {
+	width: 980px;
+	height: 115px;
+	margin: 0 auto 0;
+}
+
+body .header .logo {
+}
+
+body .header .logo img {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 48px;
+	line-height: 95px;
+	width: 215px;
+	height: 95px;
+	text-align: center;
+	overflow: hidden;
+	margin: 10px 15px 10px 15px;
+}
+
+body .header .interaction-menu {
+	height: 35px;
+}
+
+body .header .interaction-menu .generic {
+	width: 110px;
+	height: 31px;
+	margin: 2px 5px 2px 5px;
+	line-height: 31px;
+	text-align: center;
+	overflow: hidden;
+}
+
+body .header .interaction-menu .login {
+	width: 110px;
+	height: 33px;
+	margin: 0 0 2px 5px;
+	line-height: 33px;
+	text-align: center;
+	overflow: hidden;
+//	background-color: #4F81BD;
+}
+
+body .header .main-menu {
+	width: 100%;
+	height: 50px;
+	background: url("../img/menu/main/main-menu.png") no-repeat scroll left top transparent;
+}
+
+body .header .main-menu ul {
+}
+
+body .header .main-menu ul li.current {
+	background: url("../img/menu/main/main-menu-current-bg.png") no-repeat scroll center bottom transparent;
+}
+
+body .header .main-menu ul li.separator {
+	font-size: 0;
+	width: 2px;
+	height: 40px;
+	float: left;
+	background: url("../img/menu/main/main-menu-separator.png") no-repeat scroll left top transparent;
+}
+
+body .header .main-menu ul li.current a {
+	float: right;
+	background: url("../img/menu/main/main-menu-current-right-bg.png") no-repeat scroll right top transparent;
+}
+
+body .header .main-menu ul li a:visited {
+	color: #4F81BD;
+
+//	float: left;
+//	font: 700 12px Tahoma,Arial,Verdana,sans-serif;
+//	outline: medium none;
+}
+
+body .header .main-menu ul li a span {
+	cursor: pointer;
+	float: left;
+	height: 41px;
+	line-height: 41px;
+	padding: 2px 10px 0;
+}
+
+body .header .main-menu ul li.current a span {
+	color: #FFFFFF;
+	height: 45px;
+	line-height: 41px;
+	background: url("../img/menu/main/main-menu-current-left-bg.png") no-repeat scroll left top transparent;
+}
+
+body .header .main-menu .search-box {
+	float: right;
+	height: 38px;
+	padding: 2px 0 0;
+	position: relative;
+	width: 220px;
+	background: url("../img/menu/main/search-bg.png") no-repeat scroll left top transparent;
+}
+
+body .header .main-menu .search-box .search-input {
+	background: none repeat scroll 0 0 transparent;
+	border: medium none;
+	bottom: 10px;
+	color: #56596C;
+	font-size: 11px;
+	height: 16px;
+	left: 35px;
+	line-height: 15px;
+	position: absolute;
+	width: 130px;
+}
+
+body .header .main-menu .search-box .search-button {
+	bottom: 10px;
+	color: #4F81BD;
+	line-height: 19px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	width: 50px;
+}
+
+body .header .sub-menu {
+	height: 30px;
+}
+
+body .header .sub-menu ul li a {
+	color: #4F81BD;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+}
+
+body .header .sub-menu ul li.separator {
+	background: url("../img/menu/sub/sub-menu-separator.png") no-repeat scroll left top transparent;
+	float: left;
+	font-size: 0;
+	height: 30px;
+	width: 2px;
+}
+*/
+body .slider-wrapper {
+	width: 80%; 
+	margin: 20px auto;
+}
+
+body .slider-wrapper #slider {
+	margin:30px auto 0 auto;
+}
+
+/* Nivo-slider */
+//blockquote:before, blockquote:after, q:before, q:after { content:""; }
+//blockquote, q { quotes:"" ""; }
+
+//header, section, footer, aside, nav, article, figure { display: block; }

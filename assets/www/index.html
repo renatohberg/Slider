@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Exemplo de Slider usando o PhoneGap</title>
+		
+		<!-- Meta Tags -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Cache-Control" content="no-cache" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+		
+		<!-- Css's -->
+		<link rel="stylesheet" type="text/css" href="css/template.css" />
+		<link rel="stylesheet" href="default/default.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+		
+		<!-- JavaScript's -->
+		<script type="text/javascript" src="js/cordova-1.8.1.js"></script>
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+		<script type="text/javascript">
+			$(window).load(function() {
+				$('#slider').nivoSlider();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="slider-wrapper theme-default">
+			<div id="slider" class="nivoSlider">
+				<img src="img/slider/slide1.jpg" data-thumb="img/slider/slide1.jpg" alt="" title="#slider-title-1" />
+				<img src="img/slider/slide2.jpg" data-thumb="img/slider/slide2.jpg" alt="" title="#slider-title-2" />
+				<img src="img/slider/slide3.jpg" data-thumb="img/slider/slide3.jpg" alt="" data-transition="slideInLeft" />
+				<img src="img/slider/slide4.jpg" data-thumb="img/slider/slide4.jpg" alt="" title="#slider-title-4" />
+			</div>
+			<div id="slider-title-1" class="nivo-html-caption">
+				<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+			</div>
+			<div id="slider-title-2" class="nivo-html-caption">
+				<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+			</div>
+			<div id="slider-title-3" class="nivo-html-caption">
+				<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+			</div>
+			<div id="slider-title-4" class="nivo-html-caption">
+				<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+			</div>
+		</div>
+	</body>
+</html>
